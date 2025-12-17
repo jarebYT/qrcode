@@ -1,4 +1,4 @@
-import { Instagram } from 'lucide-react';
+import { ArrowDown, Instagram } from 'lucide-react';
 
 export default function App() {
   return (
@@ -6,32 +6,37 @@ export default function App() {
       {/* HERO */}
       <section className="relative h-screen flex items-end">
         <img
-          src="/placeholder-hero.jpg"
+          src="./imgs/picture.png"
           alt="Motard"
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 p-6 pb-14 max-w-xl">
           <h1 className="text-4xl font-semibold leading-tight mb-6">
-            Alexandre
+        Alexandre
           </h1>
 
           <p className="text-base text-white/70 max-w-sm mb-8">
-            Moto. Lille. Des projets en cours.
-            <br />
-            Le reste se découvre ailleurs.
+        19 ans • Lille
+        <br />
+        Motard & Créateur de contenu
           </p>
 
           <a
-            href="https://instagram.com/alexandre.vnvl"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 border border-white/40 px-6 py-3 rounded-full text-sm uppercase tracking-wide hover:bg-white hover:text-black transition"
+        href="https://instagram.com/alexandre.vnvl"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-3 border border-white/40 px-6 py-3 rounded-full text-sm uppercase tracking-wide hover:bg-white hover:text-black transition"
           >
-            Instagram
-            <Instagram className="h-4 w-4" />
+        Instagram
+        <Instagram className="h-4 w-4" />
           </a>
+        </div>
+
+        {/* SCROLL INDICATOR */}
+        <div className="absolute bottom-6 inset-x-0 flex justify-center text-white/60 animate-bounce">
+          <ArrowDown className="h-6 w-6" />
         </div>
       </section>
 
@@ -58,7 +63,7 @@ export default function App() {
           </div>
 
           <p className="text-sm text-white/50">
-            Le QR code était intentionnel.
+            C'était une bonne idée le qrcode, non ?
           </p>
         </div>
       </section>
