@@ -54,7 +54,7 @@ export default function App() {
       {/* HERO */}
       <section className="relative h-screen flex items-end">
         <img
-          src="qrcode/imgs/picture.png"
+          src="/imgs/picture.png"
           alt="Motard"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -98,12 +98,12 @@ export default function App() {
 
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="qrcode/imgs/selfie.jpg"
+              src="/imgs/selfie.jpg"
               alt="Portrait"
               className="rounded-xl object-cover aspect-[3/4]"
             />
             <img
-              src="qrcode/imgs/bike.jpg"
+              src="/imgs/bike.jpg"
               alt="Moto"
               className="rounded-xl object-cover aspect-[3/4]"
             />
