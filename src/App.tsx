@@ -98,12 +98,12 @@ export default function App() {
 
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="./imgs/selfie.jpeg"
+              src="./imgs/selfie.jpg"
               alt="Portrait"
               className="rounded-xl object-cover aspect-[3/4]"
             />
             <img
-              src="./imgs/bike.jpeg"
+              src="./imgs/bike.jpg"
               alt="Moto"
               className="rounded-xl object-cover aspect-[3/4]"
             />
